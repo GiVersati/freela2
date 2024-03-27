@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+  }
+  
+
+  .feature {
+    text-align: center;
+  }
+  
+  .feature img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .custom-input {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .custom-input input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #020202; /* Cor verde utilizada no site */
+    border-radius: 5px;
+    flex: 1;
+  }
+  
+  .custom-input button {
+    padding: 10px 20px;
+    background-color: #030303; /* Cor verde utilizada no site */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .custom-input button:hover {
+    background-color: #45a049; /* Cor verde um pouco mais escura no hover */
+  }
+
+
